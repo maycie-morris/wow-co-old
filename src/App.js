@@ -5,6 +5,7 @@ import { Breakpoint } from 'react-socks'
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './components/burger-menu/theme'
+import { logo } from './images/logo.png'
 
 // Components
 import { Burger } from './components/burger-menu/burger'
