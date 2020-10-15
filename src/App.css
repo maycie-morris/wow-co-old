@@ -1,0 +1,15 @@
+.home-header, .item-header, .login-header, .register-header, .cart-header {
+  text-align: center;
+}
+
+.burger {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
