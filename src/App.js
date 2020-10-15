@@ -5,7 +5,7 @@ import { Breakpoint } from 'react-socks'
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './components/burger-menu/theme'
-// import { Logo } from './images/Logo.png'
+import Logo from './images/Logo.png'
 
 // Components
 import { Burger } from './components/burger-menu/burger'
@@ -23,7 +23,9 @@ function App() {
   return (
     <>
     <ThemeProvider theme= { theme }>
-      {/* <img src={ Logo } /> */}
+      <div className="heroImage"> 
+        <img className="logo" src={ Logo } />
+      </div>
     <div className="burger">
       <Burger open= { open } setOpen= { setOpen } />
       <Menu open= { open } setOpen = { setOpen } />
