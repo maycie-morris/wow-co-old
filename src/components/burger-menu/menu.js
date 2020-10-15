@@ -52,9 +52,10 @@ export const Menu = ({ open }) => {
           <StyledMenu open={open}>
           <Link to='/'>Home</Link>
           <Link to='/shop'>Shop</Link>
+          <Link to='/about'>About Us</Link>
+          <Link to='/contact'>Contact Us</Link>
           <Link to='/login'>Login</Link>
           <Link to='/register'>Register</Link>
-          <Link to='/cart'>Cart</Link>
         </StyledMenu>
       </Breakpoint>
     </div>

@@ -1,38 +1,51 @@
 html {
-  background: #F8F4E9;
+  background: white;
 }
 
 .heroImage {
   display: flex;
   justify-content: center;
-  background: #F8F4E9;
+  background: white;
 }
 
 .logo {
   text-align: center;
-  width: 30rem;
-  height: 10rem;
+  width: 10rem;
+  height: 9rem;
 }
 
-nav {
+.cart-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+
+.account-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 21.5rem;
+}
+
+.top-nav {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background: #D9CFB4;
+  background: white;
+  margin-bottom: 3rem;
 }
 
 nav a {
   text-decoration: none;
   font-family: Copperplate;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2.5rem;
+  align-items: center;
 }
 
 .home-header, .item-header, .login-header, .register-header, .cart-header {
