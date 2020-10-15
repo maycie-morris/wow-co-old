@@ -25,6 +25,7 @@ function App() {
     <ThemeProvider theme= { theme }>
       <div className="heroImage"> 
         <img className="logo" src={ Logo } />
+       
       </div>
     <div className="burger">
       <Burger open= { open } setOpen= { setOpen } />
