@@ -14,13 +14,13 @@ import Account from './images/Account.png'
 // Components
 import { Burger } from './components/burger-menu/burger'
 import { Menu } from './components/burger-menu/menu'
-import { Home } from './components/home'
-import { About } from './components/about'
-import { Contact } from './components/contact'
-import { Register } from './components/register';
-import { Login } from './components/login';
-import { ItemList } from './components/itemList';
-import { ShoppingCart } from './components/shoppingCart';
+import { Home } from './components/pages/home'
+import { About } from './components/pages/about'
+import { Contact } from './components/pages/contact'
+import { Register } from './components/pages/register';
+import { Login } from './components/pages/login';
+import { ItemList } from './components/pages/itemList';
+import { ShoppingCart } from './components/pages/shoppingCart';
 
 function App() {
   // const history = useHistory();

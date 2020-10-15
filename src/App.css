@@ -27,15 +27,14 @@ html {
 }
 
 .top-nav {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  /* border-top: 2px solid black;
+  border-bottom: 3px solid black; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-top: .5rem;
   padding-bottom: .5rem;
   background: white;
-  margin-bottom: 3rem;
 }
 
 nav a {
