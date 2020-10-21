@@ -2,28 +2,29 @@ import React, { useState } from 'react';
 import { Route, Link, Switch} from 'react-router-dom';
 import { Breakpoint } from 'react-socks'
 
-import './App.css';
 import { ThemeProvider } from 'styled-components';
-import { theme } from './components/burger-menu/theme'
+import { theme } from './burger-menu/theme'
 
 // Images
-import Logo from './images/Logo2.png'
-import Cart from './images/Cart.png'
-import Account from './images/Account.png'
+import Logo from '../images/Logo2.png'
+import Cart from '../images/Cart.png'
+import Account from '../images/Account.png'
 
 // Components
-import { Burger } from './components/burger-menu/burger'
-import { Menu } from './components/burger-menu/menu'
-import { Home } from './components/pages/home'
-import { About } from './components/pages/about'
-import { Contact } from './components/pages/contact'
-import  Register  from './components/pages/register';
-import  Login  from './components/pages/login';
-import { ItemList } from './components/pages/itemList';
-import { ShoppingCart } from './components/pages/shoppingCart';
+import { Burger } from './burger-menu/burger'
+import { Menu } from './burger-menu/menu'
+import { Home } from './pages/home'
+import { About } from './pages/about'
+import { Contact } from './pages/contact'
+import  Register  from './pages/register';
+import  Login  from './pages/login';
+import { ItemList } from './pages/itemList';
+import { ShoppingCart } from './pages/shoppingCart';
 
-function App() {
-  // const history = useHistory();
+
+
+export const Nav = () => {
+    // const history = useHistory();
   const [open, setOpen] = useState(false)
 
   return (
@@ -66,5 +67,3 @@ function App() {
     </>
   );
 }
-
-export default App;
